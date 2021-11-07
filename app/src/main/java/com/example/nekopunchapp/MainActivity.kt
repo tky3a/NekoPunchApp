@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             MotionEvent.ACTION_MOVE -> iv.setImageResource(R.drawable.cat03) // タップしたまま動かす
             MotionEvent.ACTION_UP -> iv.setImageResource(R.drawable.cat01) // 話した時
         }
-
+        // test commit
         return super.onTouchEvent(event)
     }
 }
